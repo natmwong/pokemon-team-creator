@@ -1,11 +1,11 @@
 # Quick Start Guide - Pokemon Team Creator
 
-## 30-Second Setup
+## 2-Minute Setup
 
-### 1. Get Your OpenAI API Key
-- Go to https://platform.openai.com/api-keys
-- Create a new API key
-- Copy it (you'll need it in step 3)
+### 1. Prerequisites
+- Node.js installed
+- OpenAI API key (get from https://platform.openai.com/api-keys)
+- Firebase project with Firestore & Auth enabled
 
 ### 2. Backend Setup (Terminal 1)
 ```bash
@@ -13,8 +13,7 @@ cd pokemon-team-creator/server
 npm install
 ```
 
-### 3. Create .env File
-In the `server` folder, create a file named `.env` with:
+### 3. Create server/.env
 ```
 OPENAI_API_KEY=sk-your-api-key-here
 OPENAI_MODEL=gpt-4o-mini
@@ -22,82 +21,143 @@ PORT=5000
 NODE_ENV=development
 ```
 
-### 4. Start Backend (Terminal 1)
+### 4. Start Backend
 ```bash
 npm start
+# You should see: "Pokemon Team Creator server running on port 5000"
 ```
-You should see: `Pokemon Team Creator server running on port 5000`
 
 ### 5. Frontend Setup (Terminal 2)
 ```bash
 cd pokemon-team-creator/client
 npm install
-npm start
 ```
-The app will open at `http://localhost:3000`
 
-## Using the App
+### 6. Create client/.env
+```
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_domain.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_bucket.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+```
 
-1. **Click Pokemon Cards** - Select 0-6 Pokemon from the left panel
-   - Click card to add/remove
-   - Search by name
-   - See Pokemon image and types
+### 7. Start Frontend
+```bash
+npm start
+# Opens http://localhost:3000 automatically
+```
 
-2. **Write Your Strategy** - In the text area, describe what you want:
-   - "Make my team bulkier"
-   - "Optimize for speed"
-   - "Counter dragon types"
-   - "Competitive balanced team"
+## Complete User Workflow
 
-3. **Click "Generate Team"** - Wait for AI recommendations
+### 1. Create Account
+- Click "Create Account" link on login page
+- Enter display name, email, password
+- Account created in Firebase
 
-4. **Review Results** - See:
-   - Suggested Pokemon to add
-   - Movesets for each Pokemon
-   - Recommended held items
-   - Team strategy explanation
+### 2. Select Pokemon
+- Click Pokemon cards to add (0-6 total)
+- Click the ✕ button to remove any Pokemon
+- Search by name using the search box
+
+### 3. Enter Strategy
+- Type in the "Team Strategy" text area
+- Examples: "make it bulkier", "counter water types", "optimize for speed"
+
+### 4. Generate Recommendations
+- Click "Generate Team" button
+- Watch the loading spinner while AI works
+- Can press ESC or click Cancel if needed
+
+### 5. Review Results
+Modal shows:
+- Suggested Pokemon to add
+- Movesets for each with type/purpose info
+- Held items with reasoning
+- Overall team strategy
+- Team composition details
+
+### 6. Save Your Team
+- Click "Save This Team" button
+- Enter team name (required)
+- Add optional description
+- Team saves to Firestore
+
+### 7. Manage Teams
+- Click "My Teams" in navbar
+- View all your saved teams with Pokemon images
+- Load teams to edit again
+- Rename with ✏️ button
+- Delete with 🗑️ button
 
 ## File Structure
 ```
 pokemon-team-creator/
-├── server/           ← Backend (Node.js + LLM)
-├── client/           ← Frontend (React)
-├── README.md         ← Project overview
-├── SETUP.md          ← Detailed setup
-└── AI_AGENT_ARCHITECTURE.md  ← Technical details
+├── server/                  ← Node.js + Express backend
+│   ├── llm/                ← OpenAI integration
+│   ├── actions/            ← Team recommendation logic
+│   ├── routes/             ← API endpoints
+│   ├── utils/              ← Validation, rate limiting
+│   └── .env                ← OpenAI key (in .gitignore)
+│
+├── client/                  ← React frontend
+│   ├── src/
+│   │   ├── components/     ← React components
+│   │   ├── pages/          ← Auth pages (Login, SignUp)
+│   │   ├── services/       ← Firebase & API services
+│   │   ├── styles/         ← CSS files
+│   │   ├── App.js          ← Main app component
+│   │   └── index.js        ← React entry point
+│   ├── public/             ← Static files
+│   └── .env                ← Firebase config (in .gitignore)
+│
+├── .gitignore              ← Excludes .env and node_modules
+├── README.md               ← Project overview
+├── START_HERE.md           ← What you built
+└── SETUP.md                ← Detailed setup guide
 ```
 
 ## What Each Part Does
 
 **Backend (server/):**
-- Connects to OpenAI API
-- Parses LLM responses
-- Executes team recommendations
-- Validates inputs
-- Logs all actions
+- Connects to OpenAI API (GPT-4o-mini)
+- Parses LLM responses into actionable recommendations
+- Validates team compositions
+- Rate limits API calls
+- Logs all operations
 
 **Frontend (client/):**
-- Pokemon picker with images
+- Firebase Authentication (sign up, login, logout)
+- Pokemon picker with images and search
 - Strategy input form
-- Displays AI recommendations
-- Beautiful UI with gradients
+- Modal popups for recommendations and saving
+- Firestore integration for team persistence
+- Navigation between Team Builder and My Teams pages
+- Beautiful red/gold Pokéball theme
 
 ## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
-| "OPENAI_API_KEY" error | Add OPENAI_API_KEY to .env file |
-| Port 5000 in use | Change PORT in .env, update proxy in client/package.json |
-| Can't find Pokemon | Make sure search term is correct (case-insensitive) |
-| Rate limit error | Wait 15 minutes before next request (60 requests/15 min) |
-| Frontend won't connect | Make sure backend is running on port 5000 |
+| "Cannot find module 'openai'" | Run `npm install openai` in server folder |
+| Port 5000 already in use | Change PORT in server/.env |
+| Firebase errors | Check REACT_APP_FIREBASE_* keys in client/.env |
+| "Cannot sign up" | Verify Firebase Auth is enabled in console |
+| Pokemon images not showing | Check browser console for network errors |
+| Rate limit exceeded | Wait 15 minutes (60 requests/15 min) |
+| Frontend won't start | Delete node_modules, run `npm install` again |
 
-## Example Walkthrough
+## Key Features
 
-### Step 1: Select Pokemon
-- Click "Pikachu" card
-- Click "Charizard" card  
-- Click "Blastoise" card
+✅ **Authentication** - Email/password sign up and login  
+✅ **Team Saving** - Save teams to Firestore with names  
+✅ **Team Loading** - Load previously saved teams to edit  
+✅ **Pokemon Deletion** - Remove Pokemon with ✕ buttons  
+✅ **Team Management** - Rename and delete saved teams  
+✅ **Beautiful UI** - Red/gold Pokéball theme  
+✅ **Error Handling** - Friendly error messages and cancellation  
+✅ **Request Cancellation** - Press ESC to cancel during loading
 - See "Selected: 3/6" at top
 
 ### Step 2: Enter Strategy

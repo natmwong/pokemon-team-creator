@@ -6,7 +6,35 @@ Before getting started, make sure you have:
 - **Node.js** (v14 or higher) - [Download](https://nodejs.org/)
 - **npm** (comes with Node.js)
 - **OpenAI API Key** - [Get one here](https://platform.openai.com/api-keys)
+- **Firebase Project** - [Create one here](https://console.firebase.google.com/)
 - **Git** (optional, for version control)
+
+## Firebase Setup (Required for Authentication & Team Storage)
+
+1. **Create a Firebase Project**
+   - Go to https://console.firebase.google.com/
+   - Click "Create a project"
+   - Name it "pokemon-team-creator"
+   - Accept the defaults and create
+
+2. **Enable Authentication**
+   - In Firebase Console, go to **Authentication**
+   - Click **Get started**
+   - Click **Email/Password** provider
+   - Toggle "Enable" and save
+
+3. **Enable Firestore Database**
+   - In Firebase Console, go to **Firestore Database**
+   - Click **Create database**
+   - Start in **test mode** (for development)
+   - Choose a location (us-central1 recommended)
+   - Click **Enable**
+
+4. **Get Firebase Config**
+   - In Firebase Console, click **Project Settings** (⚙️)
+   - Scroll down to "Your apps"
+   - Click on your web app (or create one)
+   - Copy the config object - you'll need these values for `client/.env`
 
 ## Backend Setup
 
@@ -20,26 +48,22 @@ Before getting started, make sure you have:
    npm install
    ```
 
-3. **Create a `.env` file** in the `server` directory with your API key:
-   ```bash
-   # Copy the example file
-   copy .env.example .env
-   ```
-
-4. **Edit `.env`** and add your OpenAI API key:
+3. **Create a `.env` file** in the `server` directory:
    ```
    OPENAI_API_KEY=sk-your-key-here
    OPENAI_MODEL=gpt-4o-mini
    PORT=5000
    NODE_ENV=development
    ```
+   
+   Replace `sk-your-key-here` with your actual OpenAI API key from https://platform.openai.com/api-keys
 
-5. **Start the backend server:**
+4. **Start the backend server:**
    ```bash
    npm start
    ```
 
-   The server will start on `http://localhost:5000`
+   You should see: `Pokemon Team Creator server running on port 5000`
 
 ## Frontend Setup
 
@@ -53,26 +77,54 @@ Before getting started, make sure you have:
    npm install
    ```
 
-3. **Start the development server:**
+3. **Create a `.env` file** in the `client` directory with your Firebase config:
+   ```
+   REACT_APP_FIREBASE_API_KEY=AIzaSyABus8xnd7XQ8w5VzFi2cm72BuR-sGjmM8
+   REACT_APP_FIREBASE_AUTH_DOMAIN=pokemon-team-creator-6400f.firebaseapp.com
+   REACT_APP_FIREBASE_PROJECT_ID=pokemon-team-creator-6400f
+   REACT_APP_FIREBASE_STORAGE_BUCKET=pokemon-team-creator-6400f.firebasestorage.app
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=951648292290
+   REACT_APP_FIREBASE_APP_ID=1:951648292290:web:2de06ec7cc0225661bda5b
+   ```
+   
+   Replace these values with your actual Firebase config from Project Settings
+
+4. **Start the development server:**
    ```bash
    npm start
    ```
 
-   The app will open at `http://localhost:3000` and automatically reload when you make changes.
+   The app will open at `http://localhost:3000`
 
-## Using the Application
+## Complete User Workflow
 
-1. **Select Pokemon**: Click on Pokemon cards to add them to your team (0-6 Pokemon)
-2. **Enter Strategy**: Describe what you want your team to do:
-   - "Make my team bulkier"
-   - "Optimize for competitive battles"
-   - "Counter dragon types"
-   - "Create a fast-paced offensive team"
-3. **Generate Team**: Click "Generate Team" to get AI recommendations
-4. **Review Results**: The AI will suggest:
-   - Additional Pokemon to complete your team
-   - Optimal movesets for each Pokemon
-   - Recommended held items
+1. **Create Account**
+   - Enter display name, email, password
+   - Click "Create Account"
+   - Account is created in Firebase
+
+2. **Select & Customize Pokemon**
+   - Click Pokemon cards to add (0-6 total)
+   - Use search to find specific Pokemon
+   - Click ✕ to remove any Pokemon
+
+3. **Enter Team Strategy**
+   - Type in the "Team Strategy" text area
+   - Examples: "make it bulkier", "counter water types"
+
+4. **Generate Recommendations**
+   - Click "Generate Team"
+   - Wait for AI to analyze and recommend
+
+5. **Save Your Team**
+   - Click "Save This Team"
+   - Enter team name and optional description
+   - Team saves to Firestore
+
+6. **Manage Saved Teams**
+   - Click "My Teams" to view all saved teams
+   - Load, rename, or delete teams
+   - Load a team to continue editing
 
 ## Architecture
 

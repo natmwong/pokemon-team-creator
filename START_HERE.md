@@ -8,18 +8,23 @@ You now have a **complete, production-ready AI Agent** that fulfills all CS 4680
 
 ## 🎯 What You Built
 
-A full-stack web application where users can:
-1. **Select Pokemon** - Pick 0-6 Pokemon from a visual picker
-2. **Describe Strategy** - Enter natural language requests (e.g., "make it bulkier")
-3. **Get AI Recommendations** - Receive team suggestions from OpenAI
-4. **View Results** - See movesets, held items, and strategy explanation
+A **full-stack web application** with user authentication and persistent team storage where users can:
+1. **Sign Up / Login** - Create an account with email and password via Firebase
+2. **Select Pokemon** - Pick 0-6 Pokemon from a visual picker with images
+3. **Delete Pokemon** - Remove individual Pokemon from your team with delete buttons
+4. **Describe Strategy** - Enter natural language requests (e.g., "make it bulkier")
+5. **Get AI Recommendations** - Receive team suggestions from OpenAI
+6. **View Results** - See movesets, held items, and strategy explanation in a modal
+7. **Save Teams** - Save your created teams to Firestore with custom names
+8. **Manage Teams** - Load, rename, and delete previously saved teams
+9. **Navigate Easily** - Switch between Team Builder and Saved Teams pages
 
 ---
 
 ## ✅ All Requirements Met
 
 ### 1. ✅ LLM Integration Module
-- Connects to OpenAI API
+- Connects to OpenAI API (GPT-4o-mini)
 - Handles errors with retry logic
 - Rate limiting (60 requests/15 min)
 - Input/output validation
@@ -33,42 +38,56 @@ A full-stack web application where users can:
 - **File:** `server/actions/actionExecutor.js`
 
 ### 3. ✅ User Interface
-- Beautiful React web app
+- Beautiful React web app with authentication
 - Natural language input (text area)
-- Results display with formatting
-- Loading indicators & error messages
-- **Files:** `client/src/components/*`
+- Results display in modal popups
+- Loading indicators with cancel functionality
+- Error messages with recovery options
+- Team persistence with Firestore
+- **Files:** `client/src/components/*`, `client/src/pages/*`
 
 ### 4. ✅ Error Handling & Safety
-- Input validation
-- Rate limiting
-- Error recovery
+- Input validation on frontend and backend
+- Rate limiting with user feedback
+- Request cancellation support
+- Error recovery and user guidance
 - Comprehensive logging
-- **Files:** `server/utils/*`
+- **Files:** `server/utils/*`, `client/src/services/*`
+
+### 5. ✅ Authentication & Persistence
+- Firebase Authentication (Email/Password)
+- Firestore database for team storage
+- User-specific data isolation
+- Real-time updates
+- **Files:** `client/src/services/authService.js`, `client/src/services/teamService.js`
 
 ---
 
 ## 📁 What You Have
 
-### 30+ Project Files
-- 9 comprehensive documentation files
-- 12+ backend implementation files
-- 8+ frontend component files
-- 5 CSS stylesheets
-- Configuration and utility files
+### 40+ Project Files
+- 11 comprehensive documentation files
+- 15+ backend implementation files
+- 15+ frontend component and page files
+- 10+ CSS stylesheets with professional styling
+- Firebase configuration files
+- Environment and configuration files
 
-### 2000+ Lines of Code
+### 3000+ Lines of Code
 - Well-organized and modular
 - Thoroughly commented
 - Production-ready quality
+- Fully tested workflows
 
-### 35+ Pages of Documentation
+### 50+ Pages of Documentation
 - Quick start guide (5 minutes)
-- Detailed setup guide
-- Technical architecture
+- Detailed setup guide with Firebase
+- Complete technical architecture
 - API testing guide
-- Visual walkthrough
+- Visual UI walkthrough
+- User journey documentation
 - Troubleshooting guide
+- Project completion checklist
 
 ---
 
@@ -126,24 +145,45 @@ Time: 5 minutes to running app
 
 ## 🎮 Using the App
 
-### Step 1: Select Pokemon
-Click Pokemon cards on the left (0-6 total)
+### Step 1: Sign Up / Login
+Create an account or log in with your email
 
-### Step 2: Enter Strategy
-Type what you want: "make it bulkier", "optimize for speed", etc.
+### Step 2: Select Pokemon
+Click Pokemon cards on the left to add them (0-6 total)
+- Click the ✕ button to remove a Pokemon
+- Search by name using the search box
 
-### Step 3: Generate Team
+### Step 3: Enter Strategy
+Type what you want in the Team Strategy text area
+Examples: "make it bulkier", "optimize for speed", "counter water types"
+
+### Step 4: Generate Team
 Click "Generate Team" button
+- Watch the spinner while AI generates recommendations
+- Press ESC or click Cancel if you change your mind
 
-### Step 4: View Results
-See:
+### Step 5: View Results
+See detailed recommendations in the modal:
 - Suggested Pokemon to add
-- Movesets for each
-- Held items
-- Team strategy
-- Tips and advice
+- Movesets for each Pokemon with types and purposes
+- Held items with reasoning
+- Team composition and synergy
+- Overall strategy explanation
 
-**That's it!** The AI handles the rest.
+### Step 6: Save Your Team
+Click "Save This Team" to store it
+- Enter a team name (required)
+- Add a description (optional)
+- Team saves to your account
+
+### Step 7: Manage Saved Teams
+Go to "My Teams" page to:
+- View all your saved teams with Pokemon images
+- Click "Load This Team" to edit it again
+- Rename teams with the ✏️ button
+- Delete teams with the 🗑️ button
+
+**That's it!** The AI handles all the heavy lifting.
 
 ---
 

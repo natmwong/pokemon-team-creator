@@ -12,12 +12,29 @@ This project implements an AI Agent that:
 
 ## Features
 
+### Core Features
 - **Pokemon Selection**: Pick up to 6 Pokemon for your team with an interactive picker (shows images and names)
+- **Delete Pokemon**: Remove individual Pokemon from your team during building
 - **LLM Integration**: Send team composition and strategy requests to OpenAI API
 - **Team Optimization**: Generate suggested Pokemon to complete your team
 - **Movesets & Items**: Receive AI-recommended movesets and held items for each Pokemon
 - **Strategy Support**: Request specific team adjustments (e.g., "make my team bulkier", "counter dragon types")
-- **Safety & Validation**: Error handling, API rate limiting, and output validation
+
+### Authentication & Team Management
+- **User Authentication**: Email/password sign up and login with Firebase
+- **Save Teams**: Save your created teams to Firestore with custom names and descriptions
+- **Manage Teams**: Load, rename, and delete saved teams
+- **Team Gallery**: View saved teams with Pokemon images and strategy details
+- **Persistent Storage**: All teams synced to Firebase Firestore
+
+### UI/UX Improvements
+- **Modern Navigation**: Top navbar with page switching between Team Builder and My Teams
+- **Modal Popups**: Recommendations and save dialogs don't block the main interface
+- **Pokéball Theme**: Red and gold color scheme with professional styling
+- **Loading States**: Clear feedback during API calls with cancel functionality
+- **Error Handling**: User-friendly error messages and graceful timeout handling
+- **Escape Key Support**: Press ESC to close modals from anywhere
+- **Safety & Validation**: Input validation, rate limiting, request cancellation
 
 ## Project Structure
 
@@ -47,11 +64,17 @@ pokemon-team-creator/
 - Node.js & Express
 - OpenAI API (LLM Integration)
 - Error handling & logging
+- Rate limiting middleware
 
 **Frontend:**
-- React
+- React 18.2.0
+- Firebase Authentication & Firestore
 - Axios (HTTP client)
-- CSS/Bootstrap (styling)
+- CSS3 with gradients and animations
+
+**Database:**
+- Firebase Firestore - Real-time team persistence
+- Firebase Authentication - User account management
 
 ## Setup Instructions
 
@@ -59,6 +82,7 @@ pokemon-team-creator/
 - Node.js 14+
 - npm or yarn
 - OpenAI API key
+- Firebase project with Firestore and Authentication enabled
 
 ### Installation
 
@@ -71,7 +95,10 @@ pokemon-team-creator/
    ```bash
    cd server
    npm install
-   echo "OPENAI_API_KEY=your_key_here" > .env
+   # Create .env file with:
+   # OPENAI_API_KEY=your_key_here
+   # PORT=5000
+   # NODE_ENV=development
    npm start
    ```
 
@@ -79,6 +106,13 @@ pokemon-team-creator/
    ```bash
    cd client
    npm install
+   # Create .env file with Firebase config:
+   # REACT_APP_FIREBASE_API_KEY=your_key
+   # REACT_APP_FIREBASE_AUTH_DOMAIN=your_domain
+   # REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   # REACT_APP_FIREBASE_STORAGE_BUCKET=your_bucket
+   # REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+   # REACT_APP_FIREBASE_APP_ID=your_app_id
    npm start
    ```
 
@@ -86,18 +120,27 @@ The application will be available at `http://localhost:3000`
 
 ## API Endpoints
 
+### Pokemon Endpoints
 - `GET /api/pokemon` - Get list of all Pokemon
-- `POST /api/team/analyze` - Analyze current team
+- `GET /api/pokemon/search/:name` - Search Pokemon by name
+- `GET /api/pokemon/:id` - Get Pokemon details
+
+### Team Endpoints
 - `POST /api/team/generate` - Generate team recommendations
+- `POST /api/team/analyze` - Analyze current team
 - `POST /api/team/suggest-movesets` - Get movesets for Pokemon
 - `POST /api/team/suggest-items` - Get item recommendations
 
 ## Usage
 
-1. Select 0-6 Pokemon from the picker
-2. Input a strategy request (e.g., "make my team bulkier", "optimize this team")
-3. Click "Generate Team" to send the request to the LLM
-4. Review AI-generated recommendations:
+1. **Sign Up or Login** with your email and password
+2. **Select Pokemon** (0-6) from the picker in the Team Builder
+3. **Delete Pokemon** by clicking the ✕ button on team member cards
+4. **Input Strategy** - Describe what you want (e.g., "make my team bulkier")
+5. **Generate Recommendations** - Click "Generate Team" to get AI suggestions
+6. **Save Your Team** - Click "Save This Team" and give it a name
+7. **Manage Teams** - Go to "My Teams" to view, rename, or delete saved teams
+8. **Load Saved Teams** - Click "Load This Team" to continue editing
    - Suggested Pokemon to add
    - Recommended movesets
    - Suggested held items
