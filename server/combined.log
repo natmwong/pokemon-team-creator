@@ -1,0 +1,409 @@
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T06:27:41.724Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T06:34:54.692Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T06:34:54.708Z"}
+{"level":"info","message":"GET /favicon.ico","service":"pokemon-team-creator","timestamp":"2025-11-27T06:34:55.781Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T06:35:18.764Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T06:35:18.768Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T06:48:57.744Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T06:49:12.540Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T06:49:12.541Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T06:49:23.103Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T06:49:23.106Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:18.213Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charmander, Geodude, Electabuzz, Strategy: make this counter fairy","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:18.218Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:18.221Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:28.257Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:28.258Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:28.259Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:28.260Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-11-27T06:50:28.261Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T07:40:18.738Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T07:41:14.588Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T07:41:14.594Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T07:41:31.857Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T07:41:31.863Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:28.246Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Gengar, Hitmonchan, Gyarados, Strategy: make this counter dragon types","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:28.248Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:28.250Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:56.465Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:56.466Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:56.467Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:56.468Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-11-27T07:42:56.469Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T07:55:13.421Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T07:57:30.961Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T07:58:46.105Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T07:59:37.531Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:00:10.944Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:00:10.971Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:00:27.362Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:00:27.368Z"}
+{"level":"info","message":"GET /main.3b549ac7b8a2b8ebe282.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:03:15.533Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:03:18.200Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:03:18.201Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:03:18.219Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:03:18.220Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:12.493Z"}
+{"level":"info","message":"GET /main.d8778d6a985e6f9dc73f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:23.934Z"}
+{"level":"info","message":"GET /main.d8778d6a985e6f9dc73f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:24.185Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:24.785Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:24.801Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:35.681Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:13:35.684Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T08:14:42.432Z"}
+{"level":"info","message":"GET /main.bf91bd0eb66ea8822468.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:14:51.655Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:14:52.207Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:14:52.208Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:15:02.458Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:15:02.462Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:05.752Z"}
+{"level":"info","message":"GET /main.2b6ebe0ca77fc721bfcc.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:31.644Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:35.347Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:35.369Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:50.584Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:17:50.590Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T08:19:26.084Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:19:57.208Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:19:57.218Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:12.947Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:12.950Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:24.698Z"}
+{"level":"info","message":"GET /main.85bfccce1c74f0abfb58.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:52.951Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:56.217Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:20:56.242Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-27T08:21:13.574Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-27T08:21:13.578Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-11-29T04:41:30.268Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-11-29T04:41:30.272Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T02:23:34.162Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T02:30:12.707Z"}
+{"level":"info","message":"GET /favicon.ico","service":"pokemon-team-creator","timestamp":"2025-12-02T02:30:55.823Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:28.283Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:28.288Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:48.311Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:48.329Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:50.922Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:50.925Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:50.947Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:31:50.953Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T02:37:35.586Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charmander, Pidgeotto, Primeape, Feraligatr, Strategy: could you make this counter flying types","service":"pokemon-team-creator","timestamp":"2025-12-02T02:37:35.595Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T02:37:35.597Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:04.908Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:04.909Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:04.910Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:04.911Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:04.911Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:54.921Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:54.921Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:54.924Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:38:54.925Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:42:54.241Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:42:54.242Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:42:54.245Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:42:54.245Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T02:52:04.056Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:52:49.236Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:52:49.237Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:52:59.396Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:52:59.398Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:53:34.695Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:53:34.697Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:53:34.701Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:53:34.702Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:55:11.563Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:55:11.564Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:55:11.567Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:55:11.568Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T02:57:18.960Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:57:33.847Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:57:33.848Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T02:57:44.314Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T02:57:44.318Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:02:09.308Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:02:09.311Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:02:09.316Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:02:09.317Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:04:08.304Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:04:08.304Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:04:08.307Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:04:08.307Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:09.570Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:18.566Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:18.567Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:29.180Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:29.183Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:37.258Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:37.259Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:37.262Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:06:37.263Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:21.016Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:21.017Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:21.020Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:21.020Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:33.781Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:33.781Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:33.784Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:08:33.784Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:10:48.028Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:10:48.029Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:10:48.033Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:10:48.033Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:11:21.555Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:11:21.555Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:11:21.560Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:11:21.561Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:21.397Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:21.397Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:21.407Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:21.407Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:39.567Z"}
+{"level":"info","message":"GET /main.87c60b880acf8ff53cbf.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:50.403Z"}
+{"level":"info","message":"GET /main.87c60b880acf8ff53cbf.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:50.426Z"}
+{"level":"info","message":"GET /main.87c60b880acf8ff53cbf.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:50.511Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:51.435Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:51.436Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:51.648Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:12:51.654Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.721Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.724Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.727Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.732Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.736Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.736Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.740Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.742Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.746Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.747Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.751Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:05.751Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:32.023Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:32.024Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:32.028Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:13:32.029Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:02.373Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:02.374Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:02.377Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:02.377Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:27.955Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:27.956Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:27.959Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:27.959Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:46.509Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:46.510Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:46.514Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:18:46.515Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:19:46.499Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:19:46.500Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:19:46.507Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:19:46.508Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:31.715Z"}
+{"level":"info","message":"GET /main.8575597103cf37107c8c.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:39.455Z"}
+{"level":"info","message":"GET /main.8575597103cf37107c8c.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:39.471Z"}
+{"level":"info","message":"GET /main.8575597103cf37107c8c.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:39.512Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:40.651Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:40.669Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.829Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.832Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.836Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.836Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.839Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.840Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.843Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.843Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.846Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.847Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.850Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.851Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.854Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:20:50.855Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:07.897Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:07.897Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:07.902Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:07.903Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:54.777Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:54.778Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:54.781Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:22:54.782Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T03:23:57.187Z"}
+{"level":"info","message":"GET /main.f1db4df5886a1c867a43.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:08.507Z"}
+{"level":"info","message":"GET /main.f1db4df5886a1c867a43.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:08.518Z"}
+{"level":"info","message":"GET /main.f1db4df5886a1c867a43.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:08.553Z"}
+{"level":"info","message":"GET /main.f1db4df5886a1c867a43.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:08.834Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:47.430Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:47.432Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.793Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.796Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.799Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.799Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.802Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.802Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.805Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.805Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.808Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.808Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.811Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.812Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.814Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.815Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.818Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.818Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.822Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:24:56.823Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:27:30.704Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:27:30.704Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:27:30.707Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:27:30.708Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:19.317Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:19.325Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:55.508Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:55.508Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:55.512Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:31:55.512Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:05.358Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:05.359Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:05.362Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:05.362Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:15.216Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:15.217Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:15.221Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:15.221Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.406Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.406Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.410Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.410Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.413Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.413Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.416Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.416Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.420Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.420Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.423Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.424Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.427Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.427Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.430Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.431Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.435Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.435Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.439Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:32:44.439Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:33:27.813Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:33:27.813Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:33:27.817Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:33:27.817Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:07.677Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Nidorino, Kingdra, Phanpy, Strategy: make this optimized for competetive","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:07.678Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:07.679Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:33.845Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:33.846Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:33.847Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:33.848Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:34:33.849Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:14.297Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:14.297Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:14.299Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:14.300Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.421Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.422Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.425Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.426Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.430Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.430Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.434Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.434Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.438Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.438Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.441Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.441Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.444Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.444Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.448Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.448Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.452Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.453Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.455Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:36:44.456Z"}
+{"level":"info","message":"GET /favicon.ico","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:12.130Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:28.322Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:28.322Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:28.325Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:28.326Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:40.503Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:40.504Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:40.506Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:40:40.506Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:05.674Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charmander, Blastoise, Bellsprout, Machoke, Strategy: make this good for pokemon scarlet","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:05.674Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:05.674Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:41.681Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:41.682Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:41.682Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:41.683Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:41:41.683Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:03.193Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:18.173Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:18.191Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:18.243Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:18.541Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:18.653Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:19.471Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:19.473Z"}
+{"level":"info","message":"GET /main.385e7327d192d0303a8f.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:20.885Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:22.231Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:22.232Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.969Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.970Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.977Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.977Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.981Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.982Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.986Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.986Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.990Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.990Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.994Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.995Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.999Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:31.999Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.003Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.003Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.008Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.008Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.012Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.012Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.017Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:32.017Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:33.817Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:33.818Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:41.860Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:41.861Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:41.864Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:46:41.865Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:01.306Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Poliwrath, Jolteon, Strategy: make this counter ground","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:01.307Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:01.308Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:25.827Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:25.828Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:25.829Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:25.830Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:25.831Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:50.679Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:50.680Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:50.682Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:47:50.683Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:48:05.539Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:48:05.540Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T03:48:05.543Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T03:48:05.543Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:53:36.831Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Poliwrath, Strategy: make it tankier","service":"pokemon-team-creator","timestamp":"2025-12-02T03:53:36.832Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:53:36.832Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:01.379Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:01.380Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:01.381Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:01.381Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:01.381Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.884Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Poliwrath, Strategy: make it tankier","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.884Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.885Z"}

@@ -1,0 +1,128 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FF0000 0%, #FFCC00 25%, #FFFFFF 50%, #FF0000 75%, #FFCC00 100%);
+  background-attachment: fixed;
+}
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.auth-header h1 {
+  font-size: 2.8rem;
+  margin: 1rem 0 0.5rem;
+  color: #EC1C24;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.auth-header p {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0;
+  font-weight: 500;
+}
+
+.header-pokeball {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+  margin-bottom: 1rem;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.left-panel, .right-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 3px solid #FFD700;
+}
+
+.left-panel {
+  border-left: 8px solid #EC1C24;
+}
+
+.right-panel {
+  border-right: 8px solid #666;
+}
+
+.error-banner {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF4757 100%);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  border-left: 5px solid #EC1C24;
+  box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+}
+
+.app-footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+  color: #FFD700;
+  padding: 20px;
+  text-align: center;
+  border-top: 3px solid #EC1C24;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+
+  .app-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .left-panel, .right-panel {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding: 1rem;
+  }
+
+  .left-panel, .right-panel {
+    padding: 15px;
+  }
+
+  .auth-header h1 {
+    font-size: 2rem;
+  }
+
+  .header-pokeball {
+    width: 60px;
+    height: 60px;
+  }
+}

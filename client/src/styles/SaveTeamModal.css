@@ -1,0 +1,101 @@
+.save-team-modal {
+  max-width: 500px;
+}
+
+.save-team-modal h2 {
+  margin-bottom: 0.5rem;
+}
+
+.save-team-modal p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.save-team-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.team-input,
+.team-textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.team-input:focus,
+.team-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.team-input:disabled,
+.team-textarea:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.save-btn-primary,
+.save-btn-secondary {
+  flex: 1;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.save-btn-primary {
+  background: linear-gradient(135deg, #EC1C24 0%, #D91818 100%);
+  color: white;
+}
+
+.save-btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(236, 28, 36, 0.3);
+}
+
+.save-btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.save-btn-secondary {
+  background: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.save-btn-secondary:hover:not(:disabled) {
+  background: #e0e0e0;
+}
+
+.save-btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

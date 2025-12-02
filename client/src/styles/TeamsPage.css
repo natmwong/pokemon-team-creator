@@ -1,0 +1,42 @@
+.teams-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #FF0000 0%, #FFCC00 25%, #FFFFFF 50%, #FF0000 75%, #FFCC00 100%);
+  padding: 2rem 1rem;
+}
+
+.teams-header {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.teams-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0 0 0.5rem;
+}
+
+.teams-header p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+.teams-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .teams-page {
+    padding: 1rem;
+  }
+
+  .teams-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .teams-header p {
+    font-size: 1rem;
+  }
+}
