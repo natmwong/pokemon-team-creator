@@ -407,3 +407,73 @@
 {"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.884Z"}
 {"level":"info","message":"Generating team recommendations. Current team: Charizard, Poliwrath, Strategy: make it tankier","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.884Z"}
 {"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T03:54:34.885Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T06:10:51.865Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:11:39.438Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:11:39.439Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:11:47.909Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:11:47.917Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:07.117Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Pidgeot, Venusaur, Lickitung, Strategy: make this optimized for competetive","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:07.118Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:07.119Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:37.032Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:37.033Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:37.034Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:37.034Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:12:37.035Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:37.443Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:37.443Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:37.447Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:37.448Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:59.547Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:14:59.548Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T06:15:35.255Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Nidoking, Butterfree, Blastoise, Strategy: make this effective against dragon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:15:35.256Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T06:15:35.256Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.441Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.442Z"}
+{"level":"error","message":"Error parsing LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.443Z"}
+{"level":"error","message":"Team generation error: Failed to parse LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.443Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:04.680Z"}
+{"level":"info","message":"GET /main.8729506b539932c20b12.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:17.777Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:19.616Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:19.622Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.676Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.682Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.686Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.686Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.690Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:30.693Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:44.793Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:44.794Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:44.797Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:41:44.798Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:14.598Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charmeleon, Butterfree, Caterpie, Strategy: make it bulkier","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:14.600Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:14.601Z"}
+{"level":"warn","message":"Attempt 1/3 failed: 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************U8YA. You can find your API key at https://platform.openai.com/account/api-keys.","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:14.831Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:48.251Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:48.257Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:48.264Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:48.273Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:43:48.305Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:18.896Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:36.874Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:36.875Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.493Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.502Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.509Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.509Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.515Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:47.515Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:57.665Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charmeleon, Blastoise, Venusaur, Strategy: make it bulkier","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:57.666Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T06:46:57.666Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:27.069Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:27.070Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:27.070Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:27.070Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:27.071Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.147Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.147Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.152Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.152Z"}

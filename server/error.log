@@ -1,0 +1,2 @@
+{"level":"error","message":"Error parsing LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.443Z"}
+{"level":"error","message":"Team generation error: Failed to parse LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T06:16:01.443Z"}
