@@ -477,3 +477,192 @@
 {"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.147Z"}
 {"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.152Z"}
 {"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T06:47:48.152Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T07:29:45.130Z"}
+{"level":"info","message":"GET /main.7e7b480020abcddcbb7a.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T07:30:01.376Z"}
+{"level":"info","message":"GET /main.7e7b480020abcddcbb7a.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T07:30:01.394Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-02T07:34:02.973Z"}
+{"level":"info","message":"GET /main.266c545c77de730f2cdb.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T07:34:15.645Z"}
+{"level":"info","message":"GET /main.266c545c77de730f2cdb.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-02T07:34:15.657Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:28.429Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:28.432Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:42.382Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:42.387Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.000Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.000Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.005Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.006Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.113Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.114Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.119Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:42:45.121Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:17.762Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Pikachu, Charizard, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:17.765Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:17.766Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:46.540Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:46.541Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:46.542Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:46.544Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-02T07:43:46.545Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:44:31.317Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:44:31.318Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-02T07:44:31.325Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-02T07:44:31.326Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:33:18.930Z"}
+{"level":"info","message":"GET /favicon.ico","service":"pokemon-team-creator","timestamp":"2025-12-04T16:33:43.465Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:33:56.298Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:33:56.301Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.312Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.324Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.336Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.337Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.351Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:34:16.353Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:36:34.641Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:36:34.642Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:36:34.651Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:36:34.654Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:13.430Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Corsola, Houndoom, Kingdra, Strategy: make this an all rounder team for general game playthrough use","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:13.433Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:13.435Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:39.126Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Corsola, Houndoom, Kingdra, Strategy: make this an all rounder team for general game playthrough use","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:39.127Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:39.129Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:45.199Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:45.209Z"}
+{"level":"error","message":"Error parsing LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:45.211Z"}
+{"level":"error","message":"Team generation error: Failed to parse LLM response: Unexpected token ']', ...\",\n        ],\n       \"... is not valid JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:37:45.212Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:16.542Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:16.542Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:16.543Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:16.544Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:16.545Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:28.002Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Corsola, Houndoom, Kingdra, Strategy: make this an all rounder team for general game playthrough use","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:28.004Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:38:28.005Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-04T16:39:03.209Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-04T16:39:03.210Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:39:03.211Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:39:03.212Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:39:03.212Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:40:38.133Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:00.143Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:00.146Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:16.218Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:16.230Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:28.393Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Blastoise, Dugtrio, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:28.396Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:28.398Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:58.575Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:58.577Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:58.578Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:58.579Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:41:58.581Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:43:48.246Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:43:48.247Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:45:58.051Z"}
+{"level":"info","message":"GET /main.deb8de0bf3b425af1e62.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:16.431Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:17.224Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:17.227Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:17.909Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:17.911Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:35.202Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:35.211Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:49.799Z"}
+{"level":"info","message":"Team generation request received","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:49.802Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Pikachu, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:49.804Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:46:49.806Z"}
+{"level":"warn","message":"Attempt 1/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:19.811Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:30.995Z"}
+{"level":"info","message":"Team generation request received","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:30.996Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Pikachu, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:30.998Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:30.999Z"}
+{"level":"warn","message":"Attempt 2/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:47:50.828Z"}
+{"level":"warn","message":"Attempt 1/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:01.006Z"}
+{"level":"warn","message":"Attempt 3/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:22.850Z"}
+{"level":"error","message":"Failed to get LLM response after 3 attempts","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:22.851Z"}
+{"level":"error","message":"LLM error: LLM API error: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:22.852Z"}
+{"level":"warn","message":"Attempt 2/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:32.023Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:44.416Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:48:44.417Z"}
+{"level":"warn","message":"Attempt 3/3 failed: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:04.046Z"}
+{"level":"error","message":"Failed to get LLM response after 3 attempts","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:04.047Z"}
+{"level":"error","message":"LLM error: LLM API error: Request timeout after 30000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:04.047Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:21.748Z"}
+{"level":"info","message":"GET /main.81133795eef4f2016e9c.hot-update.json","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:33.468Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:34.317Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:34.320Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:36.795Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:36.798Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:53.772Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:49:53.781Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:11.924Z"}
+{"level":"info","message":"Team generation request received","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:11.927Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Pikachu, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:11.929Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:11.930Z"}
+{"level":"info","message":"LLM attempt 1/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:11.931Z"}
+{"level":"warn","message":"Attempt 1/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:12.224Z"}
+{"level":"info","message":"Retrying after 1000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:12.225Z"}
+{"level":"info","message":"LLM attempt 2/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:13.233Z"}
+{"level":"warn","message":"Attempt 2/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:13.354Z"}
+{"level":"info","message":"Retrying after 2000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:13.356Z"}
+{"level":"info","message":"LLM attempt 3/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:15.367Z"}
+{"level":"warn","message":"Attempt 3/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:15.496Z"}
+{"level":"error","message":"Failed to get LLM response after 3 attempts","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:15.497Z"}
+{"level":"error","message":"LLM error: LLM API error: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:50:15.500Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:03.502Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:20.320Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:20.324Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:35.508Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:35.517Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:48.898Z"}
+{"level":"info","message":"Team generation request received","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:48.900Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Blastoise, Ivysaur, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:48.901Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:48.903Z"}
+{"level":"info","message":"LLM attempt 1/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:48.904Z"}
+{"level":"warn","message":"Attempt 1/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:49.723Z"}
+{"level":"info","message":"Retrying after 1000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:49.724Z"}
+{"level":"info","message":"LLM attempt 2/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:50.738Z"}
+{"level":"warn","message":"Attempt 2/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:50.879Z"}
+{"level":"info","message":"Retrying after 2000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:50.880Z"}
+{"level":"info","message":"LLM attempt 3/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:52.889Z"}
+{"level":"warn","message":"Attempt 3/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:53.053Z"}
+{"level":"error","message":"Failed to get LLM response after 3 attempts","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:53.054Z"}
+{"level":"error","message":"LLM error: LLM API error: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:51:53.055Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:52:36.714Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:52:36.715Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:53:06.392Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:53:22.638Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:53:22.642Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:53:37.427Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:53:37.439Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:01.735Z"}
+{"level":"info","message":"Team generation request received","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:01.737Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Pikachu, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:01.739Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:01.743Z"}
+{"level":"info","message":"LLM attempt 1/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:01.743Z"}
+{"level":"warn","message":"Attempt 1/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:02.375Z"}
+{"level":"info","message":"Retrying after 1000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:02.376Z"}
+{"level":"info","message":"LLM attempt 2/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:03.390Z"}
+{"level":"warn","message":"Attempt 2/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:03.528Z"}
+{"level":"info","message":"Retrying after 2000ms","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:03.529Z"}
+{"level":"info","message":"LLM attempt 3/3","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:05.540Z"}
+{"level":"warn","message":"Attempt 3/3 failed: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:05.669Z"}
+{"level":"error","message":"Failed to get LLM response after 3 attempts","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:05.670Z"}
+{"level":"error","message":"LLM error: LLM API error: 400 Unrecognized request argument supplied: timeout","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:05.672Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:54.435Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:54:54.436Z"}
+{"level":"info","message":"Pokemon Team Creator server running on port 5000","service":"pokemon-team-creator","timestamp":"2025-12-04T16:55:25.369Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:55:41.681Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:55:41.684Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:55:56.439Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:55:56.454Z"}
+{"level":"info","message":"POST /api/team/generate","service":"pokemon-team-creator","timestamp":"2025-12-04T16:58:18.714Z"}
+{"level":"info","message":"Generating team recommendations. Current team: Charizard, Bulbasaur, Blastoise, Strategy: I want a balanced team that's good for competitive play","service":"pokemon-team-creator","timestamp":"2025-12-04T16:58:18.718Z"}
+{"level":"info","message":"Sending prompt to LLM (model: gpt-4o-mini)","service":"pokemon-team-creator","timestamp":"2025-12-04T16:58:18.719Z"}
+{"level":"info","message":"LLM response received successfully","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:08.856Z"}
+{"level":"info","message":"Parsing LLM response","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:08.858Z"}
+{"level":"info","message":"Successfully parsed LLM response as JSON","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:08.859Z"}
+{"level":"info","message":"Executing action: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:08.860Z"}
+{"level":"warn","message":"Unknown action type: GENERATE_TEAM","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:08.861Z"}
+{"level":"info","message":"GET /api/pokemon","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:41.717Z"}
+{"level":"info","message":"Fetching all Pokemon from PokeAPI","service":"pokemon-team-creator","timestamp":"2025-12-04T16:59:41.718Z"}

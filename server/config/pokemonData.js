@@ -39,7 +39,7 @@ const getAllPokemon = async (limit = 1000) => {
 
     // Fetch Pokemon list
     const listResponse = await axios.get(`${POKEAPI_BASE_URL}/pokemon?limit=${limit}&offset=0`, {
-      timeout: 10000
+      timeout: 15000
     });
 
     // Process Pokemon in batches of 20 to avoid overwhelming the API
@@ -52,7 +52,7 @@ const getAllPokemon = async (limit = 1000) => {
       
       const pokemonPromises = batch.map(async (pokemon) => {
         try {
-          const response = await axios.get(pokemon.url, { timeout: 10000 });
+          const response = await axios.get(pokemon.url, { timeout: 15000 });
           const data = response.data;
 
           return {
@@ -106,7 +106,7 @@ const getPokemonByNameOrId = async (nameOrId) => {
   try {
     const response = await axios.get(
       `${POKEAPI_BASE_URL}/pokemon/${nameOrId.toString().toLowerCase()}`,
-      { timeout: 5000 }
+      { timeout: 15000 }
     );
 
     const data = response.data;

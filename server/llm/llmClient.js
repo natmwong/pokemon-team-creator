@@ -15,12 +15,14 @@ class LLMClient {
     }
 
     this.client = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY
+      apiKey: process.env.OPENAI_API_KEY,
+      timeout: 120000, // 120 seconds for API calls
+      maxRetries: 5 // Retry more aggressively
     });
 
     this.model = process.env.OPENAI_MODEL || 'gpt-4o-mini';
     this.rateLimiter = new RateLimiter(60, 900000); // 60 requests per 15 minutes
-    this.maxRetries = 3;
+    this.maxRetries = 5; // Increase retry attempts from 3 to 5
   }
 
   /**
